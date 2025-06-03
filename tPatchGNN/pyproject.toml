@@ -1,0 +1,30 @@
+[tool.yapf]
+allow_multiline_dictionary_keys = true
+allow_split_before_dict_value = false
+based_on_style = "google"
+blank_lines_around_top_level_definition = 2
+coalesce_brackets = true
+column_limit = 120
+dedent_closing_brackets = false
+disable_split_list_with_comment = true
+each_dict_entry_on_separate_line = false
+force_multiline_dict = false
+indent_dictionary_value = false
+indent_width = 4
+join_multiple_lines = true
+space_between_ending_comma_and_closing_bracket = false
+spaces_around_subscript_colon = true
+split_all_top_level_comma_separated_values = false
+split_arguments_when_comma_terminated = false
+split_before_first_argument = false
+split_before_logical_operator = false
+split_before_named_assigns = false
+split_before_expression_after_opening_paren = false
+split_complex_comprehension = false
+use_tabs = false
+
+
+
+
+
+
