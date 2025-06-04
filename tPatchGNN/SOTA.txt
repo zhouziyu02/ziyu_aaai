@@ -116,8 +116,14 @@ Model FLOPs: 281617280.00, Parameter count (thop): 4449.00, Manual param count: 
 Average training time per iteration: 0.0203s
 Time now: 2025-06-03 09:39:34, Time for training: 27m 44s
 
-Model: simple, Best Epoch:109, Seed: 54, lr: 0.001, batch_size: 32, nhead: 1, tedim: 10, nlayer: 1, K: 2, hid_dim: 16, preconvdim:16
-MSE: 0.01637, MAE: 0.06904, MAPE: 89.39%
-Model FLOPs: 483108800.00, Parameter count (thop): 4449.00, Manual param count: 5017
-Average training time per iteration: 0.0305s
-Time now: 2025-06-02 23:05:49, Time for training: 35m 46s
+Model: simple, Best Epoch:335, Seed: 109, lr: 0.001, batch_size: 32, nhead: 1, tedim: 10, nlayer: 1, K: 2, hid_dim: 16, preconvdim:16
+MSE: 0.01629, MAE: 0.06894, MAPE: 93.74%
+Model FLOPs: 416716864.00, Parameter count (thop): 4449.00, Manual param count: 5017
+Average training time per iteration: 0.0299s
+Time now: 2025-06-04 00:01:10, Time for training: 84m 43s
+
+Model: simple, Best Epoch:254, Seed: 115, lr: 0.001, batch_size: 32, nhead: 1, tedim: 10, nlayer: 1, K: 2, hid_dim: 16, preconvdim:16
+MSE: 0.01612, MAE: 0.06813, MAPE: 98.26%
+Model FLOPs: 550494144.00, Parameter count (thop): 4449.00, Manual param count: 5017
+Average training time per iteration: 0.0257s
+Time now: 2025-06-04 04:47:24, Time for training: 57m 24s
