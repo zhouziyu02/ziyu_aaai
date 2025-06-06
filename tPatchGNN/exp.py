@@ -172,7 +172,7 @@ def train_main(args, optunaTrialReport=None):
     elif args.dataset == 'ushcn':
         final_result_path = "seed_ushcn.txt"
     elif args.dataset == 'mimic':
-        final_result_path = "mimic.txt"
+        final_result_path = "seed_mimic.txt"
     elif args.dataset == 'activity':
         final_result_path = "seed_activity.txt"
     else:

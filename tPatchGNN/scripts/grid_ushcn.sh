@@ -25,7 +25,7 @@ mkdir -p gridsearch
 
 
 export CUDA_VISIBLE_DEVICES=3 # Assigns physical GPU 0 to be logical GPU 0 for this subshell
-  for seed_val in $(seq 1 50); do
+  for seed_val in $(seq 82 120); do
     python run_models.py \
       --model $model \
       --align variate \

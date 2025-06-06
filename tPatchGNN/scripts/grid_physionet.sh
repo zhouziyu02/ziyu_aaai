@@ -6,10 +6,24 @@ model='simple'
 mkdir -p gridsearch
 
 
-# Group for seeds 1-25 on the first device (e.g., physical GPU 0)
-(
-  export CUDA_VISIBLE_DEVICES=0 # Assigns physical GPU 0 to be logical GPU 0 for this subshell
-  for seed_val in $(seq 1 25); do
+ 
+# export CUDA_VISIBLE_DEVICES=2 # Assigns physical GPU 0 to be logical GPU 0 for this subshell
+#   for seed_val in $(seq 51 100); do
+#     python run_models.py \
+#       --model $model \
+#       --align variate \
+#       --dataset physionet --state 'def' --history 24 \
+#       --patience 50 --batch_size 16 --lr 0.001 \
+#       --nhead 1 --tf_layer 1 --nlayer 2 --K 2 \
+#       --hid_dim 64 --preconvdim 16 --te_dim 20 \
+#       --outlayer Linear --seed $seed_val --gpu 0 
+#     # No '&' here, so runs sequentially on the assigned device
+#   done
+ 
+
+ 
+export CUDA_VISIBLE_DEVICES=3 # Assigns physical GPU 1 to be logical GPU 0 for this subshell
+  for seed_val in $(seq 101 150); do
     python run_models.py \
       --model $model \
       --align variate \
@@ -17,29 +31,23 @@ mkdir -p gridsearch
       --patience 50 --batch_size 16 --lr 0.001 \
       --nhead 1 --tf_layer 1 --nlayer 2 --K 2 \
       --hid_dim 64 --preconvdim 16 --te_dim 20 \
-      --outlayer Linear --seed $seed_val --gpu 0 >> gridsearch/physionet.txt 2>&1
+      --outlayer Linear --seed $seed_val --gpu 0 
     # No '&' here, so runs sequentially on the assigned device
   done
-) & # Run this entire block in the background
-
-# Group for seeds 26-50 on the second device (e.g., physical GPU 1)
-(
-  export CUDA_VISIBLE_DEVICES=1 # Assigns physical GPU 1 to be logical GPU 0 for this subshell
-  for seed_val in $(seq 26 50); do
-    python run_models.py \
-      --model $model \
-      --align variate \
-      --dataset physionet --state 'def' --history 24 \
-      --patience 50 --batch_size 16 --lr 0.001 \
-      --nhead 1 --tf_layer 1 --nlayer 2 --K 2 \
-      --hid_dim 64 --preconvdim 16 --te_dim 20 \
-      --outlayer Linear --seed $seed_val --gpu 0 >> gridsearch/physionet.txt 2>&1
-    # No '&' here, so runs sequentially on the assigned device
-  done
-) & # Run this entire block in the background
-
+ 
 # Wait for all backgrounded groups of tasks to complete
-wait
+ 
+ 
+
+# export CUDA_VISIBLE_DEVICES=3
+# python run_models.py \
+#       --model $model \
+#       --align variate \
+#       --dataset physionet --state 'def' --history 24 \
+#       --patience 50 --batch_size 16 --lr 0.001 \
+#       --nhead 1 --tf_layer 1 --nlayer 2 --K 2 \
+#       --hid_dim 64 --preconvdim 16 --te_dim 20 \
+#       --outlayer Linear --seed 1 --gpu 0  
  
  
 # for batch_size in 16 32 64 128 256; do

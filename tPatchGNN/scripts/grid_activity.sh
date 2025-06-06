@@ -21,8 +21,8 @@ mkdir -p gridsearch
 # Model FLOPs: 15221248.00, Parameter count (thop): 4561.00, Manual param count: 5135
 # Average training time per iteration: 0.0170s
 # Time now: 2025-06-02 02:36:49, Time for training: 10m 6s
-export CUDA_VISIBLE_DEVICES=2 # Assigns physical GPU 0 to be logical GPU 0 for this subshell
-for seed_val in $(seq 51 52); do
+export CUDA_VISIBLE_DEVICES=3 # Assigns physical GPU 0 to be logical GPU 0 for this subshell
+for seed_val in $(seq 101 200); do
     python run_models.py \
       --model $model \
       --align variate \

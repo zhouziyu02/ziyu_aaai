@@ -297,4 +297,702 @@ MSE: 0.00643, MAE: 0.04260, MAPE: 217.03%
 Model FLOPs: 436410752.00, Parameter count (thop): 114191.00, Manual param count: 118395
 Average training time per iteration: 0.0227s
 Time now: 2025-06-01 01:19:31, Time for training: 13m 46s
+ 
+
+
+Model: simple, Best Epoch:42, Seed: 101, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00606, MAE: 0.03679, MAPE: 69.04%
+Model FLOPs: 440619968.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0197s
+Time now: 2025-06-05 11:00:27, Time for training: 13m 44s
+
+Model: simple, Best Epoch:23, Seed: 102, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00618, MAE: 0.03809, MAPE: 105.73%
+Model FLOPs: 461843840.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0201s
+Time now: 2025-06-05 11:12:28, Time for training: 11m 9s
+
+Model: simple, Best Epoch:167, Seed: 51, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00588, MAE: 0.03543, MAPE: 54.58%
+Model FLOPs: 450150656.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0216s
+Time now: 2025-06-05 11:22:06, Time for training: 35m 23s
+
+Model: simple, Best Epoch:53, Seed: 103, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00635, MAE: 0.04019, MAPE: 127.01%
+Model FLOPs: 542284096.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0203s
+Time now: 2025-06-05 11:29:06, Time for training: 15m 51s
+
+Model: simple, Best Epoch:75, Seed: 52, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00598, MAE: 0.03586, MAPE: 70.49%
+Model FLOPs: 416210240.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0217s
+Time now: 2025-06-05 11:43:57, Time for training: 20m 30s
+
+Model: simple, Best Epoch:60, Seed: 104, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00601, MAE: 0.03619, MAPE: 51.55%
+Model FLOPs: 544262592.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0203s
+Time now: 2025-06-05 11:46:51, Time for training: 16m 53s
+
+Model: simple, Best Epoch:11, Seed: 105, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00633, MAE: 0.03727, MAPE: 92.32%
+Model FLOPs: 428653888.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0199s
+Time now: 2025-06-05 11:56:57, Time for training: 9m 15s
+
+Model: simple, Best Epoch:96, Seed: 53, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00609, MAE: 0.03582, MAPE: 58.76%
+Model FLOPs: 598928640.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0218s
+Time now: 2025-06-05 12:09:22, Time for training: 24m 2s
+
+Model: simple, Best Epoch:76, Seed: 106, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00616, MAE: 0.03731, MAPE: 122.71%
+Model FLOPs: 411114112.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0202s
+Time now: 2025-06-05 12:17:03, Time for training: 19m 13s
+
+Model: simple, Best Epoch:42, Seed: 54, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00617, MAE: 0.03837, MAPE: 100.51%
+Model FLOPs: 447421696.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0221s
+Time now: 2025-06-05 12:25:59, Time for training: 15m 24s
+
+Model: simple, Best Epoch:37, Seed: 107, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00600, MAE: 0.03613, MAPE: 88.45%
+Model FLOPs: 443212480.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0203s
+Time now: 2025-06-05 12:31:15, Time for training: 13m 23s
+
+Model: simple, Best Epoch:12, Seed: 55, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00613, MAE: 0.03726, MAPE: 92.13%
+Model FLOPs: 385067008.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0218s
+Time now: 2025-06-05 12:37:47, Time for training: 10m 17s
+
+Model: simple, Best Epoch:40, Seed: 108, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00623, MAE: 0.03655, MAPE: 70.31%
+Model FLOPs: 504953152.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0201s
+Time now: 2025-06-05 12:45:47, Time for training: 13m 44s
+
+Model: simple, Best Epoch:87, Seed: 56, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00593, MAE: 0.03588, MAPE: 97.91%
+Model FLOPs: 579478592.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0219s
+Time now: 2025-06-05 13:01:40, Time for training: 22m 39s
+
+Model: simple, Best Epoch:109, Seed: 109, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00611, MAE: 0.03589, MAPE: 54.95%
+Model FLOPs: 353992000.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0201s
+Time now: 2025-06-05 13:10:41, Time for training: 24m 6s
+
+Model: simple, Best Epoch:69, Seed: 57, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00611, MAE: 0.03659, MAPE: 113.89%
+Model FLOPs: 409135616.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0219s
+Time now: 2025-06-05 13:22:38, Time for training: 19m 40s
+
+Model: simple, Best Epoch:16, Seed: 58, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00613, MAE: 0.03696, MAPE: 81.70%
+Model FLOPs: 467144640.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0217s
+Time now: 2025-06-05 13:34:51, Time for training: 10m 54s
+
+Model: simple, Best Epoch:118, Seed: 110, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00616, MAE: 0.03591, MAPE: 52.56%
+Model FLOPs: 398261120.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0203s
+Time now: 2025-06-05 13:37:13, Time for training: 25m 42s
+
+Model: simple, Best Epoch:63, Seed: 59, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00599, MAE: 0.03606, MAPE: 103.94%
+Model FLOPs: 372623360.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0218s
+Time now: 2025-06-05 13:54:51, Time for training: 18m 36s
+
+Model: simple, Best Epoch:11, Seed: 60, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00655, MAE: 0.04071, MAPE: 124.51%
+Model FLOPs: 448990848.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0216s
+Time now: 2025-06-05 14:06:06, Time for training: 10m 1s
+
+Model: simple, Best Epoch:160, Seed: 111, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00605, MAE: 0.03560, MAPE: 73.42%
+Model FLOPs: 392141632.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0203s
+Time now: 2025-06-05 14:10:10, Time for training: 32m 8s
+
+Model: simple, Best Epoch:5, Seed: 112, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00647, MAE: 0.03853, MAPE: 69.89%
+Model FLOPs: 341957696.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0202s
+Time now: 2025-06-05 14:19:32, Time for training: 8m 29s
+
+Model: simple, Best Epoch:25, Seed: 61, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00612, MAE: 0.03638, MAPE: 51.55%
+Model FLOPs: 328422464.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0218s
+Time now: 2025-06-05 14:19:49, Time for training: 12m 25s
+
+Model: simple, Best Epoch:18, Seed: 62, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00620, MAE: 0.03700, MAPE: 92.78%
+Model FLOPs: 342298816.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0219s
+Time now: 2025-06-05 14:32:23, Time for training: 11m 21s
+
+Model: simple, Best Epoch:30, Seed: 113, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00606, MAE: 0.03713, MAPE: 69.95%
+Model FLOPs: 404585280.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0200s
+Time now: 2025-06-05 14:32:32, Time for training: 12m 9s
+
+Model: simple, Best Epoch:45, Seed: 114, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00615, MAE: 0.03727, MAPE: 75.80%
+Model FLOPs: 385203456.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0203s
+Time now: 2025-06-05 14:47:56, Time for training: 14m 37s
+
+Model: simple, Best Epoch:71, Seed: 63, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00609, MAE: 0.03593, MAPE: 79.12%
+Model FLOPs: 418529856.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0215s
+Time now: 2025-06-05 14:53:29, Time for training: 19m 37s
+
+Model: simple, Best Epoch:92, Seed: 115, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00592, MAE: 0.03570, MAPE: 81.24%
+Model FLOPs: 391868736.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0238s
+Time now: 2025-06-05 15:14:28, Time for training: 25m 32s
+
+Model: simple, Best Epoch:136, Seed: 64, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00618, MAE: 0.03724, MAPE: 90.27%
+Model FLOPs: 548267136.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0216s
+Time now: 2025-06-05 15:25:03, Time for training: 30m 20s
+
+Model: simple, Best Epoch:43, Seed: 116, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00583, MAE: 0.03495, MAPE: 56.35%
+Model FLOPs: 428995008.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0198s
+Time now: 2025-06-05 15:29:15, Time for training: 13m 59s
+
+Model: simple, Best Epoch:19, Seed: 117, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00614, MAE: 0.03730, MAPE: 98.56%
+Model FLOPs: 421783936.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0233s
+Time now: 2025-06-05 15:42:20, Time for training: 12m 13s
+
+Model: simple, Best Epoch:104, Seed: 65, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00606, MAE: 0.03597, MAPE: 58.39%
+Model FLOPs: 366367424.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0217s
+Time now: 2025-06-05 15:51:49, Time for training: 25m 15s
+
+Model: simple, Best Epoch:24, Seed: 118, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00601, MAE: 0.03714, MAPE: 115.94%
+Model FLOPs: 498833664.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0278s
+Time now: 2025-06-05 15:59:47, Time for training: 15m 38s
+
+Model: simple, Best Epoch:75, Seed: 66, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00632, MAE: 0.03673, MAPE: 56.92%
+Model FLOPs: 391595840.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0217s
+Time now: 2025-06-05 16:13:32, Time for training: 20m 30s
+
+Model: simple, Best Epoch:49, Seed: 119, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00625, MAE: 0.03706, MAPE: 70.83%
+Model FLOPs: 379220416.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0268s
+Time now: 2025-06-05 16:22:11, Time for training: 20m 4s
+
+Model: simple, Best Epoch:83, Seed: 67, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00601, MAE: 0.03535, MAPE: 68.25%
+Model FLOPs: 492168384.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0217s
+Time now: 2025-06-05 16:36:54, Time for training: 21m 50s
+
+Model: simple, Best Epoch:96, Seed: 120, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00599, MAE: 0.03531, MAPE: 63.96%
+Model FLOPs: 322848768.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0252s
+Time now: 2025-06-05 16:51:40, Time for training: 27m 46s
+
+Model: simple, Best Epoch:122, Seed: 68, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00610, MAE: 0.03552, MAPE: 55.83%
+Model FLOPs: 441779776.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0218s
+Time now: 2025-06-05 17:06:41, Time for training: 28m 17s
+
+Model: simple, Best Epoch:71, Seed: 121, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00604, MAE: 0.03628, MAPE: 90.70%
+Model FLOPs: 553840832.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0375s
+Time now: 2025-06-05 17:27:43, Time for training: 34m 21s
+
+Model: simple, Best Epoch:147, Seed: 69, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00618, MAE: 0.03981, MAPE: 157.77%
+Model FLOPs: 391391168.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0218s
+Time now: 2025-06-05 17:40:34, Time for training: 32m 21s
+
+Model: simple, Best Epoch:58, Seed: 122, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00622, MAE: 0.03766, MAPE: 72.70%
+Model FLOPs: 460615808.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0218s
+Time now: 2025-06-05 17:46:58, Time for training: 17m 51s
+
+Model: simple, Best Epoch:54, Seed: 123, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00609, MAE: 0.03669, MAPE: 89.01%
+Model FLOPs: 378606400.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0220s
+Time now: 2025-06-05 18:05:54, Time for training: 17m 17s
+
+Model: simple, Best Epoch:184, Seed: 70, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00639, MAE: 0.03589, MAPE: 73.10%
+Model FLOPs: 366844992.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0215s
+Time now: 2025-06-05 18:20:03, Time for training: 37m 57s
+
+Model: simple, Best Epoch:18, Seed: 71, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00608, MAE: 0.03650, MAPE: 95.20%
+Model FLOPs: 346849152.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0216s
+Time now: 2025-06-05 18:32:43, Time for training: 11m 11s
+
+Model: simple, Best Epoch:136, Seed: 124, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00594, MAE: 0.03689, MAPE: 125.34%
+Model FLOPs: 411455232.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0223s
+Time now: 2025-06-05 18:38:42, Time for training: 31m 17s
+
+Model: simple, Best Epoch:36, Seed: 72, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00609, MAE: 0.03664, MAPE: 87.08%
+Model FLOPs: 372759808.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0215s
+Time now: 2025-06-05 18:48:09, Time for training: 14m 2s
+
+Model: simple, Best Epoch:117, Seed: 125, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00620, MAE: 0.03629, MAPE: 55.90%
+Model FLOPs: 429677248.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0217s
+Time now: 2025-06-05 19:07:30, Time for training: 27m 16s
+
+Model: simple, Best Epoch:138, Seed: 73, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00623, MAE: 0.03728, MAPE: 89.03%
+Model FLOPs: 541465408.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0217s
+Time now: 2025-06-05 19:20:29, Time for training: 30m 48s
+
+Model: simple, Best Epoch:46, Seed: 126, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00617, MAE: 0.03662, MAPE: 72.29%
+Model FLOPs: 435864960.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0219s
+Time now: 2025-06-05 19:24:57, Time for training: 15m 56s
+
+Model: simple, Best Epoch:43, Seed: 74, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00614, MAE: 0.03631, MAPE: 86.03%
+Model FLOPs: 359565696.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0219s
+Time now: 2025-06-05 19:37:10, Time for training: 15m 24s
+
+Model: simple, Best Epoch:71, Seed: 75, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00591, MAE: 0.03513, MAPE: 69.69%
+Model FLOPs: 360520832.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0216s
+Time now: 2025-06-05 19:58:24, Time for training: 19m 43s
+
+Model: simple, Best Epoch:88, Seed: 127, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00607, MAE: 0.03604, MAPE: 63.53%
+Model FLOPs: 636259584.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0435s
+Time now: 2025-06-05 20:11:51, Time for training: 45m 23s
+
+Model: simple, Best Epoch:121, Seed: 76, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00596, MAE: 0.03525, MAPE: 58.19%
+Model FLOPs: 435182720.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0217s
+Time now: 2025-06-05 20:27:39, Time for training: 28m 1s
+
+Model: simple, Best Epoch:64, Seed: 77, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00601, MAE: 0.03676, MAPE: 95.62%
+Model FLOPs: 366640320.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0220s
+Time now: 2025-06-05 20:47:51, Time for training: 18m 59s
+
+Model: simple, Best Epoch:85, Seed: 78, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00597, MAE: 0.03696, MAPE: 134.44%
+Model FLOPs: 385681024.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0218s
+Time now: 2025-06-05 21:11:30, Time for training: 22m 16s
+
+Model: simple, Best Epoch:6, Seed: 79, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00653, MAE: 0.03864, MAPE: 94.80%
+Model FLOPs: 503725120.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0221s
+Time now: 2025-06-05 21:22:10, Time for training: 9m 27s
+
+Model: simple, Best Epoch:71, Seed: 128, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00598, MAE: 0.03648, MAPE: 92.73%
+Model FLOPs: 411182336.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0877s
+Time now: 2025-06-05 21:37:14, Time for training: 80m 14s
+
+Model: simple, Best Epoch:32, Seed: 80, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00598, MAE: 0.03562, MAPE: 68.50%
+Model FLOPs: 429131456.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0218s
+Time now: 2025-06-05 21:37:16, Time for training: 13m 35s
+
+Model: simple, Best Epoch:32, Seed: 81, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00620, MAE: 0.03769, MAPE: 88.02%
+Model FLOPs: 448990848.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0222s
+Time now: 2025-06-05 21:52:35, Time for training: 13m 47s
+
+Model: simple, Best Epoch:26, Seed: 82, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00617, MAE: 0.03685, MAPE: 82.75%
+Model FLOPs: 410636544.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0228s
+Time now: 2025-06-05 22:07:20, Time for training: 13m 8s
+
+Model: simple, Best Epoch:54, Seed: 83, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00615, MAE: 0.03695, MAPE: 60.09%
+Model FLOPs: 367459008.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0223s
+Time now: 2025-06-05 22:26:26, Time for training: 17m 33s
+
+Model: simple, Best Epoch:67, Seed: 129, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00606, MAE: 0.03574, MAPE: 87.49%
+Model FLOPs: 479588288.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0520s
+Time now: 2025-06-05 22:27:26, Time for training: 45m 59s
+
+Model: simple, Best Epoch:69, Seed: 84, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00608, MAE: 0.03727, MAPE: 85.22%
+Model FLOPs: 467963328.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0219s
+Time now: 2025-06-05 22:47:39, Time for training: 19m 41s
+
+Model: simple, Best Epoch:69, Seed: 85, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00607, MAE: 0.03596, MAPE: 54.76%
+Model FLOPs: 548130688.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0218s
+Time now: 2025-06-05 23:08:39, Time for training: 19m 39s
+
+Model: simple, Best Epoch:46, Seed: 86, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00614, MAE: 0.03620, MAPE: 64.56%
+Model FLOPs: 341957696.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0219s
+Time now: 2025-06-05 23:25:50, Time for training: 15m 57s
+
+Model: simple, Best Epoch:100, Seed: 130, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00591, MAE: 0.03614, MAPE: 80.96%
+Model FLOPs: 454223424.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0489s
+Time now: 2025-06-05 23:26:54, Time for training: 55m 25s
+
+Model: simple, Best Epoch:32, Seed: 87, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00623, MAE: 0.03881, MAPE: 111.74%
+Model FLOPs: 391664064.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0219s
+Time now: 2025-06-05 23:40:57, Time for training: 13m 36s
+
+Model: simple, Best Epoch:41, Seed: 88, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00621, MAE: 0.03722, MAPE: 52.04%
+Model FLOPs: 367527232.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0221s
+Time now: 2025-06-05 23:57:33, Time for training: 15m 13s
+
+Model: simple, Best Epoch:10, Seed: 131, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00641, MAE: 0.03747, MAPE: 55.65%
+Model FLOPs: 329309376.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0957s
+Time now: 2025-06-06 00:13:57, Time for training: 43m 47s
+
+Model: simple, Best Epoch:83, Seed: 89, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00612, MAE: 0.03657, MAPE: 84.66%
+Model FLOPs: 657551680.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0224s
+Time now: 2025-06-06 00:21:22, Time for training: 22m 32s
+
+Model: simple, Best Epoch:37, Seed: 90, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00614, MAE: 0.03699, MAPE: 69.26%
+Model FLOPs: 405199296.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0410s
+Time now: 2025-06-06 00:49:41, Time for training: 27m 5s
+
+Model: simple, Best Epoch:15, Seed: 132, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00609, MAE: 0.03656, MAPE: 83.12%
+Model FLOPs: 485571328.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0981s
+Time now: 2025-06-06 01:39:10, Time for training: 48m 32s
+
+Model: simple, Best Epoch:51, Seed: 91, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00607, MAE: 0.03618, MAPE: 54.76%
+Model FLOPs: 379902656.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0781s
+Time now: 2025-06-06 01:57:56, Time for training: 59m 45s
+
+Model: simple, Best Epoch:38, Seed: 133, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00594, MAE: 0.03529, MAPE: 47.68%
+Model FLOPs: 474082816.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0805s
+Time now: 2025-06-06 02:38:08, Time for training: 53m 44s
+
+Model: simple, Best Epoch:135, Seed: 92, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00593, MAE: 0.03557, MAPE: 70.60%
+Model FLOPs: 580024384.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0734s
+Time now: 2025-06-06 03:49:02, Time for training: 102m 26s
+
+Model: simple, Best Epoch:32, Seed: 134, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00627, MAE: 0.03872, MAPE: 110.37%
+Model FLOPs: 404994624.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0920s
+Time now: 2025-06-06 03:51:59, Time for training: 57m 16s
+
+Model: simple, Best Epoch:27, Seed: 135, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00622, MAE: 0.03948, MAPE: 124.90%
+Model FLOPs: 347736064.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0499s
+Time now: 2025-06-06 04:26:08, Time for training: 29m 11s
+
+Model: simple, Best Epoch:71, Seed: 93, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00607, MAE: 0.03643, MAPE: 56.39%
+Model FLOPs: 422807296.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0784s
+Time now: 2025-06-06 05:09:53, Time for training: 71m 42s
+
+Model: simple, Best Epoch:90, Seed: 136, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00602, MAE: 0.03577, MAPE: 50.68%
+Model FLOPs: 411045888.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0461s
+Time now: 2025-06-06 05:19:39, Time for training: 48m 44s
+
+Model: simple, Best Epoch:26, Seed: 137, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00645, MAE: 0.03690, MAPE: 63.50%
+Model FLOPs: 379220416.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0405s
+Time now: 2025-06-06 05:47:35, Time for training: 23m 24s
+
+Model: simple, Best Epoch:48, Seed: 138, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00602, MAE: 0.03683, MAPE: 109.35%
+Model FLOPs: 403357248.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0224s
+Time now: 2025-06-06 06:05:45, Time for training: 16m 38s
+
+Model: simple, Best Epoch:31, Seed: 94, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00627, MAE: 0.03879, MAPE: 112.83%
+Model FLOPs: 373714944.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0790s
+Time now: 2025-06-06 06:07:27, Time for training: 48m 33s
+
+Model: simple, Best Epoch:74, Seed: 139, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00596, MAE: 0.03561, MAPE: 78.93%
+Model FLOPs: 366572096.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0220s
+Time now: 2025-06-06 06:27:55, Time for training: 20m 40s
+
+Model: simple, Best Epoch:27, Seed: 95, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00620, MAE: 0.03671, MAPE: 53.40%
+Model FLOPs: 460206464.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0295s
+Time now: 2025-06-06 06:33:52, Time for training: 17m 15s
+
+Model: simple, Best Epoch:69, Seed: 140, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00623, MAE: 0.03673, MAPE: 99.14%
+Model FLOPs: 303603392.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0221s
+Time now: 2025-06-06 06:49:19, Time for training: 19m 52s
+
+Model: simple, Best Epoch:61, Seed: 96, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00623, MAE: 0.03798, MAPE: 142.91%
+Model FLOPs: 359906816.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0218s
+Time now: 2025-06-06 06:53:26, Time for training: 18m 18s
+
+Model: simple, Best Epoch:43, Seed: 97, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00602, MAE: 0.03573, MAPE: 49.20%
+Model FLOPs: 309995776.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0220s
+Time now: 2025-06-06 07:10:10, Time for training: 15m 30s
+
+Model: simple, Best Epoch:79, Seed: 141, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00618, MAE: 0.03755, MAPE: 97.66%
+Model FLOPs: 517874368.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0219s
+Time now: 2025-06-06 07:12:12, Time for training: 21m 22s
+
+Model: simple, Best Epoch:57, Seed: 98, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00609, MAE: 0.03644, MAPE: 87.35%
+Model FLOPs: 460820480.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0218s
+Time now: 2025-06-06 07:29:18, Time for training: 17m 37s
+
+Model: simple, Best Epoch:55, Seed: 142, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00604, MAE: 0.03616, MAPE: 81.21%
+Model FLOPs: 460615808.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0221s
+Time now: 2025-06-06 07:31:14, Time for training: 17m 32s
+
+Model: simple, Best Epoch:57, Seed: 143, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00600, MAE: 0.03661, MAPE: 81.40%
+Model FLOPs: 373646720.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0221s
+Time now: 2025-06-06 07:50:40, Time for training: 17m 55s
+
+Model: simple, Best Epoch:83, Seed: 99, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00604, MAE: 0.03778, MAPE: 83.10%
+Model FLOPs: 335087744.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0221s
+Time now: 2025-06-06 07:52:58, Time for training: 22m 10s
+
+Model: simple, Best Epoch:51, Seed: 100, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00609, MAE: 0.03723, MAPE: 106.41%
+Model FLOPs: 385953920.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0221s
+Time now: 2025-06-06 08:11:13, Time for training: 16m 52s
+
+Model: simple, Best Epoch:99, Seed: 144, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00600, MAE: 0.03609, MAPE: 50.32%
+Model FLOPs: 538143104.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0231s
+Time now: 2025-06-06 08:18:13, Time for training: 26m 2s
+
+Model: simple, Best Epoch:42, Seed: 101, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00606, MAE: 0.03679, MAPE: 69.04%
+Model FLOPs: 440619968.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0263s
+Time now: 2025-06-06 08:32:05, Time for training: 18m 21s
+
+Model: simple, Best Epoch:88, Seed: 145, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00612, MAE: 0.03750, MAPE: 108.85%
+Model FLOPs: 347940736.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0265s
+Time now: 2025-06-06 08:48:23, Time for training: 27m 39s
+
+Model: simple, Best Epoch:23, Seed: 102, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00618, MAE: 0.03809, MAPE: 105.73%
+Model FLOPs: 461843840.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0267s
+Time now: 2025-06-06 08:49:25, Time for training: 14m 49s
+
+Model: simple, Best Epoch:10, Seed: 146, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00677, MAE: 0.03920, MAPE: 110.35%
+Model FLOPs: 337270912.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0265s
+Time now: 2025-06-06 09:02:42, Time for training: 12m 6s
+
+Model: simple, Best Epoch:53, Seed: 103, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00635, MAE: 0.04019, MAPE: 127.01%
+Model FLOPs: 542284096.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0267s
+Time now: 2025-06-06 09:12:34, Time for training: 20m 50s
+
+Model: simple, Best Epoch:60, Seed: 104, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00601, MAE: 0.03619, MAPE: 51.55%
+Model FLOPs: 544262592.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0266s
+Time now: 2025-06-06 09:37:08, Time for training: 22m 6s
+
+Model: simple, Best Epoch:153, Seed: 147, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00591, MAE: 0.03548, MAPE: 69.65%
+Model FLOPs: 410909440.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0265s
+Time now: 2025-06-06 09:45:40, Time for training: 40m 28s
+
+Model: simple, Best Epoch:11, Seed: 105, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00633, MAE: 0.03727, MAPE: 92.32%
+Model FLOPs: 428653888.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0263s
+Time now: 2025-06-06 09:51:52, Time for training: 12m 13s
+
+Model: simple, Best Epoch:81, Seed: 148, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00601, MAE: 0.03571, MAPE: 85.67%
+Model FLOPs: 417711168.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0267s
+Time now: 2025-06-06 10:14:37, Time for training: 26m 26s
+
+Model: simple, Best Epoch:76, Seed: 106, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00616, MAE: 0.03731, MAPE: 122.71%
+Model FLOPs: 411114112.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0264s
+Time now: 2025-06-06 10:19:36, Time for training: 25m 9s
+
+Model: simple, Best Epoch:37, Seed: 107, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16nvitop
+MSE: 0.00600, MAE: 0.03613, MAPE: 88.45%
+Model FLOPs: 443212480.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0267s
+Time now: 2025-06-06 10:39:42, Time for training: 17m 36s
+
+Model: simple, Best Epoch:77, Seed: 149, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00618, MAE: 0.03745, MAPE: 131.21%
+Model FLOPs: 349236992.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0267s
+Time now: 2025-06-06 10:42:45, Time for training: 25m 38s
+
+Model: simple, Best Epoch:8, Seed: 150, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00641, MAE: 0.03759, MAPE: 67.46%
+Model FLOPs: 322575872.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0268s
+Time now: 2025-06-06 10:57:06, Time for training: 11m 52s
+
+Model: simple, Best Epoch:40, Seed: 108, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00623, MAE: 0.03655, MAPE: 70.31%
+Model FLOPs: 504953152.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0257s
+Time now: 2025-06-06 10:59:45, Time for training: 17m 34s
+
+Model: simple, Best Epoch:109, Seed: 109, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00611, MAE: 0.03589, MAPE: 54.95%
+Model FLOPs: 353992000.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0222s
+Time now: 2025-06-06 11:27:54, Time for training: 26m 37s
+
+Model: simple, Best Epoch:118, Seed: 110, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00616, MAE: 0.03591, MAPE: 52.56%
+Model FLOPs: 398261120.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0223s
+Time now: 2025-06-06 11:57:38, Time for training: 28m 13s
+
+Model: simple, Best Epoch:160, Seed: 111, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00605, MAE: 0.03560, MAPE: 73.42%
+Model FLOPs: 392141632.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0221s
+Time now: 2025-06-06 12:34:10, Time for training: 35m 0s
+
+Model: simple, Best Epoch:5, Seed: 112, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00647, MAE: 0.03853, MAPE: 69.89%
+Model FLOPs: 341957696.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0220s
+Time now: 2025-06-06 12:44:55, Time for training: 9m 14s
+
+Model: simple, Best Epoch:30, Seed: 113, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00606, MAE: 0.03713, MAPE: 69.95%
+Model FLOPs: 404585280.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0222s
+Time now: 2025-06-06 12:59:53, Time for training: 13m 27s
+
+Model: simple, Best Epoch:45, Seed: 114, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00615, MAE: 0.03727, MAPE: 75.80%
+Model FLOPs: 385203456.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0221s
+Time now: 2025-06-06 13:17:11, Time for training: 15m 52s
+
+Model: simple, Best Epoch:92, Seed: 115, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00592, MAE: 0.03570, MAPE: 81.24%
+Model FLOPs: 391868736.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0221s
+Time now: 2025-06-06 13:42:26, Time for training: 23m 44s
+
+Model: simple, Best Epoch:43, Seed: 116, lr: 0.001, batch_size: 16, nhead: 1, tedim: 20, nlayer: 2, K: 2, hid_dim: 64, preconvdim:16
+MSE: 0.00583, MAE: 0.03495, MAPE: 56.35%
+Model FLOPs: 428995008.00, Parameter count (thop): 114191.00, Manual param count: 118395
+Average training time per iteration: 0.0220s
+Time now: 2025-06-06 13:59:27, Time for training: 15m 30s
 
