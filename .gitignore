@@ -1,3 +1,5 @@
 data/
 tPatchGNN/nohup.out
 tPatchGNN/gridsearch/
+__pycache__/
+*.pyc
