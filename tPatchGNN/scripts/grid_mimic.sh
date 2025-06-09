@@ -9,7 +9,7 @@ mkdir -p gridsearch
 # Model: simple, Best Epoch:229, Seed: 1, lr: 0.001, batch_size: 32, nhead: 1, tedim: 10, nlayer: 1, K: 2, hid_dim: 16, preconvdim:16
 
 export CUDA_VISIBLE_DEVICES=2 # Assigns physical GPU 0 to be logical GPU 0 for this subshell
-  for seed_val in $(seq 120 150); do
+  for seed_val in $(seq 151 200); do
     python run_models.py \
       --model $model \
       --align variate \
