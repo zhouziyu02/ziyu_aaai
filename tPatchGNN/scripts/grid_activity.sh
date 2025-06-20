@@ -22,7 +22,17 @@ mkdir -p gridsearch
 # Average training time per iteration: 0.0170s
 # Time now: 2025-06-02 02:36:49, Time for training: 10m 6s
 export CUDA_VISIBLE_DEVICES=2 # Assigns physical GPU 0 to be logical GPU 0 for this subshell
-for seed_val in $(seq 101 200); do
+# for seed_val in $(seq 101 200); do
+#     python run_models.py \
+#       --model $model \
+#       --align variate \
+#       --dataset activity --state 'def' --history 3000 \
+#       --patience 50 --batch_size 32 --lr 0.001 \
+#       --nhead 1 --tf_layer 1 --nlayer 1 --K 4 \
+#       --hid_dim 16 --preconvdim 32 --te_dim 10 \
+#       --outlayer Linear --seed $seed_val --gpu 0
+# done
+
     python run_models.py \
       --model $model \
       --align variate \
@@ -30,8 +40,9 @@ for seed_val in $(seq 101 200); do
       --patience 50 --batch_size 32 --lr 0.001 \
       --nhead 1 --tf_layer 1 --nlayer 1 --K 4 \
       --hid_dim 16 --preconvdim 32 --te_dim 10 \
-      --outlayer Linear --seed $seed_val --gpu 0
-done
+      --outlayer Linear --seed 1 --gpu 0
+
+
 
 # for batch_size in 64; do
 # for k in 2 4; do

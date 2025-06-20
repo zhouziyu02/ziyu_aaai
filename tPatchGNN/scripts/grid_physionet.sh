@@ -21,9 +21,6 @@ mkdir -p gridsearch
 #   done
  
 
- 
-export CUDA_VISIBLE_DEVICES=3 # Assigns physical GPU 1 to be logical GPU 0 for this subshell
-  for seed_val in $(seq 101 150); do
     python run_models.py \
       --model $model \
       --align variate \
@@ -31,9 +28,21 @@ export CUDA_VISIBLE_DEVICES=3 # Assigns physical GPU 1 to be logical GPU 0 for t
       --patience 50 --batch_size 16 --lr 0.001 \
       --nhead 1 --tf_layer 1 --nlayer 2 --K 2 \
       --hid_dim 64 --preconvdim 16 --te_dim 20 \
-      --outlayer Linear --seed $seed_val --gpu 0 
-    # No '&' here, so runs sequentially on the assigned device
-  done
+      --outlayer Linear --seed 1 --gpu 0 
+
+
+# export CUDA_VISIBLE_DEVICES=3 # Assigns physical GPU 1 to be logical GPU 0 for this subshell
+#   for seed_val in $(seq 101 150); do
+#     python run_models.py \
+#       --model $model \
+#       --align variate \
+#       --dataset physionet --state 'def' --history 24 \
+#       --patience 50 --batch_size 16 --lr 0.001 \
+#       --nhead 1 --tf_layer 1 --nlayer 2 --K 2 \
+#       --hid_dim 64 --preconvdim 16 --te_dim 20 \
+#       --outlayer Linear --seed $seed_val --gpu 0 
+#     # No '&' here, so runs sequentially on the assigned device
+#   done
  
 # Wait for all backgrounded groups of tasks to complete
  

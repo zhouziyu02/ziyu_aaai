@@ -457,7 +457,7 @@ class SimplePatchGNN(nn.Module):
     def forecasting(self, tp_pred, X, tp_true, mask=None):
         B, L, N = X.shape
         mask = torch.ones_like(X) if mask is None else mask
-
+        print(X.shape)
         # broadcast 时间戳
         tp_true = tp_true[..., None].repeat(1, 1, N) if tp_true.dim() == 2 else tp_true
         tp_pred = tp_pred[..., None]                 if tp_pred.dim() == 2 else tp_pred

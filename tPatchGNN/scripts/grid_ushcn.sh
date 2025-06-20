@@ -24,17 +24,30 @@ mkdir -p gridsearch
 # Wait for all backgrounded groups of tasks to complete
 
 
-export CUDA_VISIBLE_DEVICES=3 # Assigns physical GPU 0 to be logical GPU 0 for this subshell
-  for seed_val in $(seq 82 120); do
-    python run_models.py \
-      --model $model \
-      --align variate \
-      --dataset ushcn --state 'def' --history 24 \
-      --patience 50 --batch_size 128 --lr 0.001 \
-      --nhead 1 --tf_layer 1 --nlayer 2 --K 2 \
-      --hid_dim 64 --preconvdim 8 --te_dim 10 \
-      --outlayer Linear --seed $seed_val --gpu 0
-  done
+
+python run_models.py \
+    --model $model \
+    --align variate \
+    --dataset ushcn --state 'def' --history 24 \
+    --patience 50 --batch_size 128 --lr 0.001 \
+    --nhead 1 --tf_layer 1 --nlayer 2 --K 2 \
+    --hid_dim 64 --preconvdim 8 --te_dim 10 \
+    --outlayer Linear --seed 1 --gpu 0
+
+
+
+
+# export CUDA_VISIBLE_DEVICES=3 # Assigns physical GPU 0 to be logical GPU 0 for this subshell
+#   for seed_val in $(seq 82 120); do
+#     python run_models.py \
+#       --model $model \
+#       --align variate \
+#       --dataset ushcn --state 'def' --history 24 \
+#       --patience 50 --batch_size 128 --lr 0.001 \
+#       --nhead 1 --tf_layer 1 --nlayer 2 --K 2 \
+#       --hid_dim 64 --preconvdim 8 --te_dim 10 \
+#       --outlayer Linear --seed $seed_val --gpu 0
+#   done
 
 
 # for batch_size in 128 192 256; do
