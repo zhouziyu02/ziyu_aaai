@@ -1,2 +1,0 @@
-data,pred_len,loss,batch_size,patience,lr,patch_size,stride,seed
-activity,,0.0065704453736543655,32,9,0.0006889968428670265,3,4,0

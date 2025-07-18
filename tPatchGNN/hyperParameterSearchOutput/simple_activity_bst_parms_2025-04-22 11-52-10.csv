@@ -1,2 +1,0 @@
-data,pred_len,loss,batch_size,lr,patch_size,stride,nlayer,hid_dim,K,random_dim
-activity,,0.0028559379279613495,32,0.0015123477154516524,300,300,1,32,4,64

@@ -6,7 +6,7 @@ import datetime
 import os
 
 # 根据你的项目实际情况导入train_main
-from tPatchGNN.exp import train_main  # 如果路径不同，请更改
+from KFNet.exp import train_main  # 如果路径不同，请更改
 
 class Tuner:
     """Tuner for tPatchGNN using Optuna."""
