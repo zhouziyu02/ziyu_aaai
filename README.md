@@ -1,4 +1,4 @@
-This is the official implementation of our AAAI 2026 submission titled **"KFNet: Efficient Pre-aligned Irregular Time Series Forecasting through Spatial Correlation and Temporal Compression"**
+This is the official implementation of paper titled **"KFNet: Efficient Pre-aligned Irregular Time Series Forecasting through Spatial Correlation and Temporal Compression"**
 
 ## 🔧 Reproducing Experiments
 
